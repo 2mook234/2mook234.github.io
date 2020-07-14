@@ -16,6 +16,7 @@
 		#page{
 			width: 1300px;
 			margin : auto;
+			/*border : 0px solid #bbbbbb;*/
 		}
 		header{
 			width: 1300px;
@@ -142,22 +143,20 @@
 		}
 		#droppa{
 		position: relative;
-		margin: 20px 30px;
 		display: inline-block;
 	    }
 		.drop{
 		position: absolute;
-		margin-top: 38px;
+		margin-top: 15px;
 		width: 120px;
 		display: none;
 		list-style: inline;
 		background-color: white;
-		border: 1px solid gray;
+		border: 1px solid black;
+		background-color: #ddddff;
 	    }
-	
-	     .drop:hover{
+	    .drop:hover{
 		color: #aaaaaa;
-		border-bottom: 2px solid #aaaaaa;
 		font-weight: bold;
 	    }
 	    .drop li{
@@ -167,12 +166,28 @@
 		display: block;
 	    }
 	    #dropa{
-		padding: 10px;
+		padding: 3px;
 		position: relative;
 		color: #aaaaaa;
-		margin: 10px 0 10px 0;
+		margin: 3px 0 3px 0;
 		border-bottom: 1px solid #aaaaaa;
 		color: black;
+	    }
+	    #droppa:hover{
+	    	color: green;
+	    	border-bottom: 3px solid green;
+	    }
+	    .img img{
+	    	width: 277px;
+	    	height: 220px;
+	    	display: block; overflow:
+	    }
+	    .img:hover{
+	    	transform: scale(1.1);
+			transition: transform 1s;
+	    }
+	    .img{
+	    	overflow: hidden;
 	    }
 	</style>
 </head>
@@ -304,33 +319,33 @@
 	<nav>
 	<table>
 		<tr>
-			<th><img src="./img/a1.png" width = 277>
+			<th><img src="./img/a1.png" class="img" width = 277>
 				<br><span class="bbc">여름바다, 이것만은 꼭 주의해주···</span>
 			</th>
-			<th><img src="./img/a2.png" width = 277>
+			<th><img src="./img/a2.png" class="img" width = 277>
 				&nbsp;&nbsp;&nbsp;<span class="bbc">여름바다, 이것만은 꼭 주의해주···</span>
 			</th>
-			<th><img src="./img/a3.png" width = 277>
+			<th><img src="./img/a3.png" class="img" width = 277>
 			&nbsp;&nbsp;&nbsp;<span class="bbc">여름바다, 이것만은 꼭 주의해주···</span>
 		</th>
 		</tr>
 		<tr>
-			<th><img src="./img/a4.png" width = 277>
+			<th><img src="./img/a4.png" class="img" width = 277>
 				&nbsp;&nbsp;&nbsp;<span class="bbc">여름바다, 이것만은 꼭 주의해주···</span>
 			</th>
-			<th><img src="./img/a5.png" width = 277>
+			<th><img src="./img/a5.png" class="img" width = 277>
 			&nbsp;&nbsp;&nbsp;<span class="bbc">여름바다, 이것만은 꼭 주의해주···</span>
 		</th>
-			<th><img src="./img/a6.png" width = 277>
+			<th><img src="./img/a6.png" class="img" width = 277>
 			&nbsp;&nbsp;&nbsp;<span class="bbc">여름바다, 이것만은 꼭 주의해주···</span>
 		</th>
 		</tr>
 		<tr>
-			<th><img src="./img/a7.png" width = 277>&nbsp;&nbsp;&nbsp;&nbsp;<span class="bbc">여름바다, 이것만은 꼭 주의해주···</span>
+			<th><img src="./img/a7.png" class="img" width = 277>&nbsp;&nbsp;&nbsp;&nbsp;<span class="bbc">여름바다, 이것만은 꼭 주의해주···</span>
 			</th>
-			<th><img src="./img/a8.png" width = 277>&nbsp;&nbsp;&nbsp;&nbsp;<span class="bbc">여름바다, 이것만은 꼭 주의해주···</span>
+			<th><img src="./img/a8.png" class="img" width = 277>&nbsp;&nbsp;&nbsp;&nbsp;<span class="bbc">여름바다, 이것만은 꼭 주의해주···</span>
 			</th>
-			<th><img src="./img/a9.png" width = 277>&nbsp;&nbsp;&nbsp;&nbsp;<span class="bbc">여름바다, 이것만은 꼭 주의해주···</span>
+			<th><img src="./img/a9.png" class="img" width = 277>&nbsp;&nbsp;&nbsp;&nbsp;<span class="bbc">여름바다, 이것만은 꼭 주의해주···</span>
 			</th>
 		</tr>
 	</table><hr>
